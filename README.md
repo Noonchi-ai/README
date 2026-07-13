@@ -1,3 +1,18 @@
+# 눈치 (Noonchi)
+
+한국어 코치 앱 — 상황에 맞는 한국어 표현과 롤플레이 대화를 통해 눈치(사회적 맥락 이해)를 학습하는 서비스입니다.
+
+> ⚠️ 프로젝트 방향은 변경될 수 있습니다.
+
+## 📦 Repositories
+
+| 레포 | 공개 여부 | 스택 | 설명 |
+|------|-----------|------|------|
+| [Noonchi-FE](https://github.com/Noonchi/Noonchi-FE) | Public | TypeScript | 웹 프론트엔드 |
+| [Noonchi-App](https://github.com/Noonchi/Noonchi-App) | Private | Dart | 모바일 앱 |
+| [Noonchi-BE](https://github.com/Noonchi/Noonchi-BE) | Private | Python | 백엔드 서버 (noonchi-server) |
+| [Noonchi-AI](https://github.com/Noonchi/Noonchi-AI) | Private | Python | AI 서버 (ASK 코칭, Roleplay 로직) |
+
 ## 🔗 Console Links
 
 | 구분 | 서비스 | 링크 | 설명 |
@@ -19,3 +34,21 @@
 | 음성 (TTS/STT) | Google TTS, CLOVA Speech | GCP / NCP |
 | 번역 | Papago | NCP |
 | 로그인 | Google OAuth2 | GCP |
+
+## 🤖 Development AI Tools
+
+| 도구 | 용도 | 추천 구독 | 비고 |
+|------|------|-----------|------|
+| **Claude** (Anthropic) | 코드 리뷰, 아키텍처 설계, 리팩토링, 문서화 | Pro 또는 Max | 긴 컨텍스트, 복잡한 로직 이해에 강점. Claude Code로 터미널/IDE 연동 가능 |
+| **Codex (GPT-5.6)** | 코드 자동완성, 빠른 스니펫 생성, 반복 작업 | ChatGPT Plus/Team | 빠른 응답 속도, 짧은 작업에 적합 |
+| **GitHub Copilot** | 인라인 코드 자동완성 (IDE 내) | Individual 또는 Business | 실시간 타이핑 보조용, 팀 단위면 Business 권장 |
+
+### 추천 조합
+- **설계/리뷰용**: Claude (복잡한 컨텍스트, 멀티파일 이해)
+- **타이핑 보조용**: Copilot 또는 Codex (빠른 자동완성)
+- **팀 단위 사용 시**: Claude Max + Copilot Business 조합이 비용 대비 효율적
+
+> 팀 전체가 같은 도구를 쓸 경우 개인 구독보다 **Team/Business 플랜**이 관리(권한, 결제 통합) 측면에서 유리합니다.
+
+## 흐름도
+<img width="479" height="314" alt="image" src="https://github.com/user-attachments/assets/1db705cc-bdb3-4520-838f-32b1cbc76a93" />
