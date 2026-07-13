@@ -13,6 +13,23 @@
 | [Noonchi-BE](https://github.com/Noonchi/Noonchi-BE) | Private | Python | 백엔드 서버 (noonchi-server) |
 | [Noonchi-AI](https://github.com/Noonchi/Noonchi-AI) | Private | Python | AI 서버 (ASK 코칭, Roleplay 로직) |
 
+## 🚀 시작하기
+
+각 레포를 클론해서 로컬에 세팅하세요.
+
+```bash
+git clone https://github.com/Noonchi/Noonchi-FE.git
+git clone https://github.com/Noonchi/Noonchi-App.git
+git clone https://github.com/Noonchi/Noonchi-BE.git
+git clone https://github.com/Noonchi/Noonchi-AI.git
+```
+
+각 레포 실행 방법은 레포별 README 참고.
+
+### 환경 변수 (.env)
+
+`.env` 파일은 보안상 레포에 포함되어 있지 않습니다. **Jinsung**에게 요청해서 전달받으세요.
+
 ## 🔗 Console Links
 
 | 구분 | 서비스 | 링크 | 설명 |
@@ -44,6 +61,7 @@
 | **GitHub Copilot** | 인라인 코드 자동완성 (IDE 내) | Individual 또는 Business | 실시간 타이핑 보조용, 팀 단위면 Business 권장 |
 
 ### 추천 조합
+
 - **설계/리뷰용**: Claude (복잡한 컨텍스트, 멀티파일 이해)
 - **타이핑 보조용**: Copilot 또는 Codex (빠른 자동완성)
 - **팀 단위 사용 시**: Claude Max + Copilot Business 조합이 비용 대비 효율적
@@ -51,4 +69,5 @@
 > 팀 전체가 같은 도구를 쓸 경우 개인 구독보다 **Team/Business 플랜**이 관리(권한, 결제 통합) 측면에서 유리합니다.
 
 ## 흐름도
+
 <img width="479" height="314" alt="image" src="https://github.com/user-attachments/assets/1db705cc-bdb3-4520-838f-32b1cbc76a93" />
