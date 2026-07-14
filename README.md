@@ -8,20 +8,20 @@
 
 | 레포 | 공개 여부 | 스택 | 설명 |
 |------|-----------|------|------|
-| [Noonchi-FE](https://github.com/Noonchi/Noonchi-FE) | Public | TypeScript | 웹 프론트엔드 |
-| [Noonchi-App](https://github.com/Noonchi/Noonchi-App) | Private | Dart | 모바일 앱 |
-| [Noonchi-BE](https://github.com/Noonchi/Noonchi-BE) | Private | Python | 백엔드 서버 (noonchi-server) |
-| [Noonchi-AI](https://github.com/Noonchi/Noonchi-AI) | Private | Python | AI 서버 (ASK 코칭, Roleplay 로직) |
+| [Noonchi-FE](https://github.com/Noonchi-ai/Noonchi-FE) | Public | TypeScript | 웹 프론트엔드 |
+| [Noonchi-App](https://github.com/Noonchi-ai/Noonchi-App) | Private | Dart | 모바일 앱 |
+| [Noonchi-BE](https://github.com/Noonchi-ai/Noonchi-BE) | Private | Python | 백엔드 서버 (noonchi-server) |
+| [Noonchi-AI](https://github.com/Noonchi-ai/Noonchi-AI) | Private | Python | AI 서버 (ASK 코칭, Roleplay 로직) |
 
 ## 🚀 시작하기
 
 각 레포를 클론해서 로컬에 세팅하세요.
 
 ```bash
-git clone https://github.com/Noonchi/Noonchi-FE.git
-git clone https://github.com/Noonchi/Noonchi-App.git
-git clone https://github.com/Noonchi/Noonchi-BE.git
-git clone https://github.com/Noonchi/Noonchi-AI.git
+git clone https://github.com/Noonchi-ai/Noonchi-FE.git
+git clone https://github.com/Noonchi-ai/Noonchi-App.git
+git clone https://github.com/Noonchi-ai/Noonchi-BE.git
+git clone https://github.com/Noonchi-ai/Noonchi-AI.git
 ```
 
 각 레포 실행 방법은 레포별 README 참고.
